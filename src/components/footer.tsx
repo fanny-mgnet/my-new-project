@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Code, Github, Twitter, Linkedin } from "lucide-react";
 
-export default function Footer() {
+export default function Footer()  {
   return (
     <footer className="bg-secondary">
       <div className="container py-12">
