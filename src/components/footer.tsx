@@ -19,24 +19,24 @@ export default function Footer() {
             <div>
               <h3 className="font-headline font-semibold mb-4">Resources</h3>
               <ul className="space-y-2">
-                <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground">Docs</Link></li>
-                <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground">Blog</Link></li>
-                <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground">Help Center</Link></li>
+                <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Docs</Link></li>
+                <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Blog</Link></li>
+                <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Help Center</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-headline font-semibold mb-4">Company</h3>
               <ul className="space-y-2">
-                <li><Link href="#about" className="text-sm text-muted-foreground hover:text-foreground">About Us</Link></li>
-                <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground">Careers</Link></li>
-                <li><Link href="#contact" className="text-sm text-muted-foreground hover:text-foreground">Contact</Link></li>
+                <li><Link href="#about" className="text-sm text-muted-foreground hover:text-primary">About Us</Link></li>
+                <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Careers</Link></li>
+                <li><Link href="#contact" className="text-sm text-muted-foreground hover:text-primary">Contact</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-headline font-semibold mb-4">Legal</h3>
               <ul className="space-y-2">
-                <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground">Privacy</Link></li>
-                <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground">Terms</Link></li>
+                <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Privacy</Link></li>
+                <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Terms</Link></li>
               </ul>
             </div>
           </div>
@@ -46,9 +46,9 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Web Starter. All Rights Reserved.
           </p>
           <div className="flex items-center space-x-4 mt-4 sm:mt-0">
-            <Link href="#" className="text-muted-foreground hover:text-foreground"><Github className="h-5 w-5" /></Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground"><Twitter className="h-5 w-5" /></Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground"><Linkedin className="h-5 w-5" /></Link>
+            <Link href="#" className="text-muted-foreground hover:text-primary"><Github className="h-5 w-5" /></Link>
+            <Link href="#" className="text-muted-foreground hover:text-primary"><Twitter className="h-5 w-5" /></Link>
+            <Link href="#" className="text-muted-foreground hover:text-primary"><Linkedin className="h-5 w-5" /></Link>
           </div>
         </div>
       </div>

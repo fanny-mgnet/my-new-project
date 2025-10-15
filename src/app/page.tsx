@@ -56,7 +56,7 @@ export default function Home() {
               great idea.
             </p>
             <Link href="#contact">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground animate-fade-in-up [animation-delay:400ms]">
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-primary-foreground animate-fade-in-up [animation-delay:400ms]">
                 Get Started
               </Button>
             </Link>
@@ -107,7 +107,7 @@ export default function Home() {
                   Our goal is to provide developers and creators with a clean, efficient, and beautiful starting point. From basic structure to interactive elements, we've got you covered so you can focus on what matters most: bringing your vision to life.
                 </p>
                 <Link href="#features">
-                  <Button variant="link" className="p-0 text-accent hover:text-accent/90">Learn more &rarr;</Button>
+                  <Button variant="link" className="p-0 text-primary hover:text-primary/90">Learn more &rarr;</Button>
                 </Link>
               </div>
               <div className="flex justify-center">

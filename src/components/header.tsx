@@ -29,7 +29,7 @@ export default function Header() {
             <Link
               key={link.label}
               href={link.href}
-              className="text-sm font-medium text-foreground/60 transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               {link.label}
             </Link>
@@ -37,7 +37,7 @@ export default function Header() {
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <Button className="hidden md:flex" variant="outline">Sign In</Button>
-          <Button className="hidden md:flex bg-accent hover:bg-accent/90 text-accent-foreground">Sign Up</Button>
+          <Button className="hidden md:flex bg-accent hover:bg-accent/90 text-primary-foreground">Sign Up</Button>
           
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
@@ -65,7 +65,7 @@ export default function Header() {
               </div>
               <div className="flex flex-col space-y-2 px-6 mt-auto pb-6">
                  <Button variant="outline">Sign In</Button>
-                 <Button className="bg-accent hover:bg-accent/90 text-accent-foreground">Sign Up</Button>
+                 <Button className="bg-accent hover:bg-accent/90 text-primary-foreground">Sign Up</Button>
               </div>
             </SheetContent>
           </Sheet>
