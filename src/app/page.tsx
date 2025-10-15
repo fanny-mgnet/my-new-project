@@ -45,7 +45,7 @@ export default function Home() {
               priority
               data-ai-hint={heroImage.imageHint}
             />
-          )}
+          ) }
           <div className="absolute inset-0 bg-black/50 -z-10" />
           <div className="container px-4 md:px-6">
             <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tighter mb-4 animate-fade-in-up">
